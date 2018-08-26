@@ -54,7 +54,7 @@ public class WeatherUtils {
         return true;
     }
 
-    @Cacheable
+    @Cacheable("timezone")
     public TimeZone getLocalTimeOffsetInSeconds(Coordinates coordinates, Long epochTime){
         logger.info("Fetching timezones for {}", coordinates);
         String requestURL = String.format(config.getTimezoneAPIUrl(), coordinates.getLat(), coordinates.getLon(), epochTime/1000);

@@ -35,3 +35,8 @@
 2018-08-26 15:51:53.527  INFO 95912 --- [http-nio-7777-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
 2018-08-26 15:51:54.041  INFO 95912 --- [http-nio-7777-exec-1] c.f.r.manager.ForecastSummaryManager     : Retrieved information for Delhi
 2018-08-26 15:51:54.042  INFO 95912 --- [http-nio-7777-exec-1] c.f.r.util.WeatherUtils                  : Fetching timezones for Coordinates [lon = 77.2219, lat = 28.6517]
+2018-08-26 16:04:38.504  INFO 95912 --- [http-nio-7777-exec-10] c.f.r.manager.ForecastSummaryManager     : Retrieved information for Berlin
+2018-08-26 16:04:38.504  INFO 95912 --- [http-nio-7777-exec-10] c.f.r.util.WeatherUtils                  : Fetching timezones for Coordinates [lon = 13.3889, lat = 52.517]
+2018-08-26 16:31:56.336  INFO 95912 --- [Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12b0404f: startup date [Sun Aug 26 15:51:37 IST 2018]; root of context hierarchy
+2018-08-26 16:31:56.338  INFO 95912 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-08-26 16:31:56.339  INFO 95912 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
