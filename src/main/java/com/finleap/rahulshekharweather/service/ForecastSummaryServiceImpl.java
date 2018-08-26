@@ -32,7 +32,6 @@ public class ForecastSummaryServiceImpl implements ForecastSummaryService {
             String[] validArgs = {"city"};
             argsValidator.validate(validArgs, allRequestParams.keySet());
             String city = allRequestParams.get("city");
-            System.out.println("City: " + city);
             forecastSummary = forecastSummaryManager.getSummaryByCity(city);
         } catch (ApplicationException e) {
             ForecastSummaryResponse forecastSummaryResponse = new ForecastSummaryResponse(e);

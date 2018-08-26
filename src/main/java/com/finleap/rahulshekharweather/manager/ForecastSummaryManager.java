@@ -42,7 +42,7 @@ public class ForecastSummaryManager {
         }
         logger.info("Retrieved information for {}", city);
         ForecastSummary summary = getForecastSummaryFromWeatherResponse(weatherServiceResponse);
-        System.out.println("Retrieved " + summary);
+        logger.info("Retrieved " + summary);
         return summary;
     }
 
